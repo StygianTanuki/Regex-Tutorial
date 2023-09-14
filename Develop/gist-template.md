@@ -33,7 +33,7 @@ There are three components for grouping an email. The first will utlize `([a-z0-
 
 ### Bracket Expressions
 
-
+The bracketed expressions for this regex would be the character set of `[a-z0-9_\.-]`. This set allows any character between a-z to be cass sensitive. It will also match the numbers and special characters with it.
 
 ### Character Classes
 
@@ -41,7 +41,7 @@ The character class that is used within this expression is `\d`. It matches a si
 
 ## Common Regex Component
 
-
+The common regex component for this would have to be the `+` quantifier. It will continue to match as many times as possible to get what is needed for the validation.
 
 ## Author
 
