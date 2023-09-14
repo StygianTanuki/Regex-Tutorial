@@ -1,12 +1,8 @@
 # Regex Tutorial - Matching an Email
 
-Introductory paragraph (replace this with your text)
-
 This tutorial will go over the use of regex, commonly known as Regular Expression, in regards to using it to match to emails with an expression.  The purpose of matching and validating emails becomes extremely useful when using applications such as Node and/or MongoDB.
 
 ## Summary
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
 The regex will utlize the following code to identify patterns that are commonly used for emails and validation: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`. This tutorial will explain the components utilized with regex and how each section can validate and match with an email.
 
@@ -44,7 +40,5 @@ The character class that is used within this expression is `\d`. It matches a si
 The common regex component for this would have to be the `+` quantifier. It will continue to match as many times as possible to get what is needed for the validation.
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
 
 I am an up and coming coder that is learning more and more about this diverse landscape. If you would like to check out my projects please follow this link to view my Github profile: https://github.com/StygianTanuki
